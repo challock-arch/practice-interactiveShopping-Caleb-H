@@ -2,6 +2,7 @@ body {
     color: darkslategray;
     background-color: lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:.8rem;
 }
 
 header{
@@ -29,6 +30,8 @@ button:active {
 
 li {
     margin: 5px 0;
+    padding:15px 0;
+    border-bottom-style: dotted;
 }
 
 input {
@@ -48,7 +51,7 @@ footer {
     text-align: center;
     height:auto;
     position:absolute;
-    width:100%;
+    width:80%;
     border-top-style: dotted;
     border-top-color: darkslategray;
     font-size: smaller;
