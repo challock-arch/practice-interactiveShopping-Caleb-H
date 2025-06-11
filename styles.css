@@ -1,0 +1,55 @@
+body {
+    color: darkslategray;
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    border-bottom-color: darkslategray;
+    border-bottom-style: dotted;
+}
+
+fieldset {
+    border: 0;
+}
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategray;
+    border-color: darkslategray;
+    border-width: .5px;
+    border-radius: 1rem;
+    padding: 2.5px 7px;
+}
+
+button:active {
+    color: white;
+    background-color: rgba(54, 87, 194, 0.5);
+}
+
+li {
+    margin: 5px 0;
+}
+
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkslategray;
+    background-color: rgba(255, 255, 255, .5);
+    border: 0;
+}
+
+.edit-button, .delete-button, .confirm-button {
+    /* margin: 0 1.2rem; */
+    float: right;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    height:auto;
+    position:absolute;
+    width:100%;
+    border-top-style: dotted;
+    border-top-color: darkslategray;
+    font-size: smaller;
+}
